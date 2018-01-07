@@ -2,8 +2,6 @@
 
 Webpack based boilerplate for producing libraries (Input: ES6, Output: universal library)
 
-![Travis](https://travis-ci.org/krasimir/webpack-library-starter.svg?branch=master)
-
 ## Features
 
 * Webpack 3 based.
@@ -32,7 +30,7 @@ ES6 source files
 ## Getting started
 
 1. Setting up the name of your library
-  * Open `webpack.config.js` file and change the value of `libraryName` variable.
+  * Open `config.js` file and change the value of `libraryName` variable.
   * Open `package.json` file and change the value of `main` property so it matches the name of your library.
 2. Build your library
   * Run `yarn install` (recommended) or `npm install` to get the project's dependencies
